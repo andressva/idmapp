@@ -35,7 +35,7 @@ Create a .env file and setup
 
 ### JavaScript
 
-- [Webpack]https://webpack.js.org/) webpack is a static module bundler for modern JavaScript applications. 
+- [Webpack](https://webpack.js.org/) webpack is a static module bundler for modern JavaScript applications. 
 - [babel](https://babeljs.io/).
 - [React](http://facebook.github.io/react) is used for UI.
 
