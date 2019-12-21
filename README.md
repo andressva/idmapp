@@ -4,9 +4,6 @@
 
 For development, you will only need Node.js
 
-## Link:
-    http://idmapp.000webhostapp.com
-
 ## Install
 
     $ git clone
