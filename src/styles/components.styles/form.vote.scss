@@ -1,0 +1,57 @@
+@import '../default.styles/variables.scss';
+
+.list-pictures{
+    display: flex;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__item{
+        position: relative;
+        width: 220px;
+        margin-bottom: 15px;
+    }
+    &__radio{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0%;
+        &:checked ~ label:before{
+            transform: translateX(0%);
+        }
+        &:checked ~ .box-name{
+            color: #fff;
+        }
+    }
+    &__label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        overflow: hidden;
+        transition: all .1s ease-in;
+        &:before{
+            content: '';
+            position: absolute;
+            background-color: $grape-blue;
+            display: block;
+            width: 100%;
+            height: 35px;
+            bottom: 0;
+            transform: translateX(-100%);
+            transition: all 300ms linear;
+        }
+    }
+}
+
+@media (max-width: $screen-sm-min) {
+    .list-pictures{
+        flex-direction: column;
+        align-items: center;
+        width: 320px;
+    }
+}

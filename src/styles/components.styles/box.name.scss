@@ -1,0 +1,18 @@
+
+.box-name{
+    position: relative;
+    display: flex;
+    padding: 5px;
+    transition: all 200ms ease-in-out;
+    &__circle{
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: $grape-blue;
+    }
+    &__label{
+        text-align: start;
+        margin-left: 5px;
+    }
+}

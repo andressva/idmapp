@@ -1,0 +1,97 @@
+@import './default.styles/normalize.scss';
+@import './default.styles/local.reset.scss';
+@import './default.styles/typography.scss';
+@import './default.styles/colors.scss';
+
+
+//components style
+@import './components.styles/panel.scss';
+@import './components.styles/side.bar.scss';
+@import './components.styles/seller.list.scss';
+@import './components.styles/box.score.scss';
+@import './components.styles/input.form.scss';
+@import './components.styles/vote.scss';
+@import './components.styles/form.vote.scss';
+@import './components.styles/box.name.scss';
+@import './components.styles/facture.scss';
+
+//loading 
+@import './components.styles/loading.styles.scss';
+
+.example-appear {
+    opacity: 0.01;
+}
+  
+.example-appear.example-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.logo{
+    padding-top: 70px;
+    font-family: 'Lilita One', cursive;
+    font-size: 60px;
+    line-height: 0.9em;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    &:hover{
+        color: $pink;
+    }
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Lilita One', cursive;
+    color: $font-light; 
+    transition: all .2s ease-in-out;
+    &--start{
+        margin-top: 180px;
+        width: 180px;
+        height: 60px;
+        font-size: 1.5em;
+        background-color: $green-apple;
+    }
+    &--blue{
+        background-color: $blue-light;
+    }
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+
+@media (max-width: $screen-sm-min) {
+    .container{
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    
+    .button--start{
+        position: fixed;
+        bottom: 20px;
+        margin-top: 0;
+        left: 50%;
+        margin-left: -90px;
+    }
+}
+
+
+
+
+
+
+
+
