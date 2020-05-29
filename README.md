@@ -1,11 +1,8 @@
-# IMAGENES DEL MUNDO APP WEB
+# IMAGENES DEL MUNDO
 
 ## Requirements
 
 For development, you will only need Node.js
-
-## Link:
-    http://idmapp.000webhostapp.com
 
 ## Install
 
@@ -16,8 +13,10 @@ For development, you will only need Node.js
 ## Using API
     * Alegra https://developer.alegra.com/ (creating seller and factures)
     * Google Custom Search Engine https://developers.google.com/custom-search/v1/overview (searching images)
+
 ## Config .env file
 Create a .env file and setup
+
     $EMAIL=YOUR_EMAIL_ALEGRA_API
     $API_KEY_ALEGRA=YOUR_API_KEY
     $API_KEY_GOOGLE=YOUR_API_GOOGLE_KEY
@@ -35,7 +34,7 @@ Create a .env file and setup
 
 ### JavaScript
 
-- [Webpack]https://webpack.js.org/) webpack is a static module bundler for modern JavaScript applications. 
+- [Webpack](https://webpack.js.org/) webpack is a static module bundler for modern JavaScript applications. 
 - [babel](https://babeljs.io/).
 - [React](http://facebook.github.io/react) is used for UI.
 
