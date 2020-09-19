@@ -1,5 +1,9 @@
 # IMAGENES DEL MUNDO
 
+## Screenshots
+
+![Home Desktop](https://raw.githubusercontent.com/andressva/idmapp/master/screenshots/home-desktop.PNG "Home Desktop")
+
 ## Requirements
 
 For development, you will only need Node.js
