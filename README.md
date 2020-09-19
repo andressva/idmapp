@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-![Home Desktop](./screenshots/home-desktop.png?raw=true "Home Desktop")
+![Home Desktop](relative/path/to/screenshots/home-desktop.png?raw=true "Home Desktop")
 
 ## Requirements
 
