@@ -3,7 +3,19 @@
 ## Screenshots
 
 <p align="center">
-  <img width="300px" src="./screenshots/home-desktop.png">
+  <img width="400px" src="./screenshots/home-desktop.PNG">
+  <img width="400px" src="./screenshots/search-desktop.PNG">
+</p>
+<p align="center">
+  <img width="400px" src="./screenshots/vote-desktop.PNG">
+  <img width="400px" src="./screenshots/facture-desktop.PNG">
+</p>
+
+<p align="center">
+  <img width="200px" src="./screenshots/home-mobile.PNG">
+  <img width="200px" src="./screenshots/seacrh-mobile.PNG">
+  <img width="200px" src="./screenshots/vote-mobile.PNG">
+  <img width="200px" src="./screenshots/facture-mobile.PNG">
 </p>
 
 ## Requirements
