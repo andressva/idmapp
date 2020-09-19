@@ -1,5 +1,9 @@
 # IMAGENES DEL MUNDO
 
+## Screenshots
+
+![Home Desktop](./screenshots/home-desktop.png?raw=true "Home Desktop")
+
 ## Requirements
 
 For development, you will only need Node.js
