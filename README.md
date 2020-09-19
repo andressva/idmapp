@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-![Home Desktop](relative/path/to/screenshots/home-desktop.png?raw=true "Home Desktop")
+![Home Desktop](https://raw.githubusercontent.com/andressva/idmapp/master/screenshots/home-desktop.PNG "Home Desktop")
 
 ## Requirements
 
